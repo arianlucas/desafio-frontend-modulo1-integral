@@ -1,0 +1,118 @@
+.hero-section{
+    width: 1110px;
+    height: 600px;
+    margin-top: 54px;
+    background-image: url("../../assets/home/image-homepage-hero.jpg");
+    background-size: cover;
+}
+
+.apresentacao{
+    width: 445px;
+    height: 357px;
+    background: #FAFAFA;
+    margin-top: 243px;
+    padding-top: 56px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.apresentacao h1 {
+
+    height: 200px;
+    margin-left: 28px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 50px;
+    letter-spacing: -0.446429px;
+    color: #33323D;
+}
+
+.apresentacao button {
+    all: unset;
+    box-sizing: border-box;
+}
+
+.apresentacao button a {
+    width: 200px;
+    height: 48px;
+    background-color: #203A4C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.apresentacao button a:hover{
+    background: #5FB4A2;
+}
+
+.img-button {
+    width: 48px;
+    height: 48px;
+    background: rgba(0, 0, 0, 0.1);
+    mix-blend-mode: normal;
+    padding: 18px 16px;
+}
+
+.apresentacao button:hover img{
+    filter: invert(0%) sepia(100%) saturate(0%) hue-rotate(28deg) brightness(100%) contrast(105%);
+}
+
+.apresentacao button a h2{
+    width: 152px;
+    height: 14px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.sobre-section{
+    width: 1110px;
+    height: 601px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 150px;
+}
+
+.sobre-section img {
+    width: 540px;
+    height: 600px;
+}
+
+.sobre{
+    width: 430px;
+    height: 601px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    border-top: 1px solid rgba(51, 50, 61, 0.15);
+    border-bottom: 1px solid rgba(51, 50, 61, 0.15);
+}
+
+.sobre h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 42px;
+    letter-spacing: -0.357143px;
+    color: #33323D;
+    margin-bottom: 28px;
+}
+
+.sobre p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    color: #33323D;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+    margin-bottom: 24px;
+}

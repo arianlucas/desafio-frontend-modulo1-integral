@@ -1,0 +1,128 @@
+.area-contato{
+    width: 1110px;
+    height: 426px;
+    margin-top: 94px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-top: 1px solid rgba(51, 50, 61, 0.15);
+    border-bottom: 1px solid rgba(51, 50, 61, 0.15);
+    padding-top: 48px;
+}
+
+.area-contato h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 42px;
+    letter-spacing: -0.357143px;
+    color: #33323D;
+    margin-bottom: 28px;
+}
+
+.resumo-contato{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.resumo-contato p{
+    width: 635px;
+    height: 180px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    color: #33323D;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}
+
+.redes-sociais2{
+    margin: 54px 0 0;
+}
+
+.input-contato{
+    width: 1110px;
+    height: 426px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    
+    margin-top: 48px;
+    margin-bottom: 109px;
+}
+
+.inputs {
+    width: 635px;
+    height: 426px;
+    display: flex;
+    flex-direction: column;
+}
+.inputs label{
+    margin-bottom: 8px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 30px;
+    color: #33323D;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}
+
+
+.color-input {
+    all: unset;
+    box-sizing: border-box;
+    width: 635px;
+    height: 48px;
+    padding: 10px;
+    margin-bottom: 24px;
+    background: rgba(51, 50, 61, 0.1);
+    mix-blend-mode: normal;
+
+    color: #33323D;
+    font-family: 'Public Sans', sans-serif;
+}
+
+.mens-input {
+    height: 96px;
+    
+}
+
+.color-input:focus{
+    border: 2px solid #000000;
+    box-sizing: border-box;
+}
+
+.inputs button {
+    all: unset;
+    box-sizing: border-box;
+    width: 200px;
+    height: 48px;
+    background-color: #203A4C;
+
+}
+
+.inputs button a {
+    width: 200px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+
+.inputs button:hover{
+    background: #5FB4A2;
+}

@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+.font-ibara {
+    font-family: 'Ibarra Real Nova', serif;
+}
+
+.font-publicsans {
+    font-family: 'Public Sans', sans-serif;
+}
+
+.estilo-cabecalho {
+    text-decoration: none;
+    margin-left: 43px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+    color: #33323D;
+}
+
+.estilo-rodape {
+    text-decoration: none;
+    margin-left: 43px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+    color: #FFF;
+}
+
+.letra-verde{
+    color: #5FB4A2;
+}
+
+body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    min-width: 100vw;
+    min-height: 100vh;
+    padding-top: 34px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 1111px;
+    height: 32px;
+}
+
+.ul-organizado{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.botao-page-home{
+    all: unset;
+    box-sizing: border-box;
+    align-self: center;
+    width: 204px;
+    height: 48px;
+    border: 1px solid #33323D;
+    display: flex;
+    justify-content: center;
+}
+
+.botao-portfolio{
+    width: 204px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #33323D;
+}
+
+.botao-portfolio:hover{
+    background: #33323D;
+    color: #FAFAFA;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 100vw;
+    height: 80px;
+    background-color: #33323D;
+}
+
+.redes-sociais{
+    width: 104px;
+    height: 24px;
+    margin-left: 620px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.redes-sociais a {
+    display: flex;
+    justify-content: center;
+}
+
+.contato{
+    width: 1110px;
+    height: 84px;
+    margin: 150px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contato h1 {
+    width: 367px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 42px;
+    letter-spacing: -0.357143px;
+    color: #33323D;
+}
