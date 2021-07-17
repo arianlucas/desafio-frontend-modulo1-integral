@@ -87,11 +87,17 @@
 }
 
 .mens-input {
-    height: 96px;
     
+    padding: 10px;
+    margin-bottom: 24px;
+    background: rgba(51, 50, 61, 0.1);
+    mix-blend-mode: normal;
+
+    color: #33323D;
+    font-family: 'Public Sans', sans-serif;
 }
 
-.color-input:focus{
+.mens-input:focus, .color-input:focus{
     border: 2px solid #000000;
     box-sizing: border-box;
 }
